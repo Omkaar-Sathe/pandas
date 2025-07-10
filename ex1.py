@@ -1,7 +1,12 @@
 
 import pandas as pd
-a=[1,7,2]
 
-b=pd.Series(a)
+a={
+"om":[1,2,3],
+"rahul":[10,20,30]
 
-print(b)
+}
+
+#load data into a datarame object:
+df=pd.DataFrame(a)
+print(df)

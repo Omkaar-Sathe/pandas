@@ -1,0 +1,10 @@
+
+import pandas as pd
+
+data={
+    "om":[40,50,44],
+    "nik":[10,15,20]
+}
+
+df=pd.DataFrame(data,index=["day1","day2","day3"])
+print(df)
