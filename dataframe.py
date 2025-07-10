@@ -1,9 +1,8 @@
 
-#create a dataframe from tow series:
 import pandas as pd
 a={
-   "calories":[420,380,390],
-   "duration":[50,40,45]
+     "om":[100,200,300],
+     "nikhil":[40,20,10]
 }
 
 b=pd.DataFrame(a)
